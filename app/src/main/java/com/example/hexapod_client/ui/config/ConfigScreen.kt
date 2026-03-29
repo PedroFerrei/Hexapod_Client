@@ -142,8 +142,16 @@ fun ConfigScreen(vm: HexapodClientViewModel, modifier: Modifier = Modifier) {
 
         // ── About ───────────────────────────────────────────────────────────
         ConfigCard("ABOUT") {
-            Text("Hexapod Client v1.0", color = ValueColor,  style = MaterialTheme.typography.bodyMedium)
-            Text("github.com/hexapod",  color = LabelColor,  style = MaterialTheme.typography.labelMedium)
+            Text("Hexapod Client  v1.0", color = ValueColor, style = MaterialTheme.typography.bodyMedium)
+            Spacer(Modifier.height(4.dp))
+            Text("github.com/PedroFerrei/Hexapod_Client", color = AccentCyan, style = MaterialTheme.typography.labelMedium)
+            Spacer(Modifier.height(8.dp))
+            Text("Server app", color = LabelColor, style = MaterialTheme.typography.labelSmall)
+            Text("github.com/PedroFerrei/Hexapod_Server", color = AccentCyan, style = MaterialTheme.typography.labelMedium)
+            Spacer(Modifier.height(8.dp))
+            Text("Created by Pedro Ferreira & Claude (Anthropic)", color = LabelColor, style = MaterialTheme.typography.labelSmall)
+            Spacer(Modifier.height(2.dp))
+            Text("Apache License 2.0", color = LabelColor, style = MaterialTheme.typography.labelSmall)
         }
     }
 }
