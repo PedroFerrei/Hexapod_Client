@@ -16,7 +16,7 @@ Android remote-controller app for the [Hexapod Server](https://github.com/PedroF
 
 ## Features
 
-- **Dual virtual joysticks** — left stick for turning, right stick for forward/back
+- **Dual virtual joysticks** — right stick for turning, left stick for forward/back
 - **Gait selector** — TRIPOD, RIPPLE, WAVE with animated pill buttons
 - **Speed control** — SLOW / MEDIUM / FAST via speed ring on the joystick
 - **Waypoint map** — OSM/satellite map to plan and send a path to the robot
